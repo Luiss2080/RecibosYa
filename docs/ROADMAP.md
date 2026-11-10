@@ -1,0 +1,37 @@
+# Roadmap de RecibosYa
+
+Ruta de desarrollo del MVP, fase por fase. Cada fase termina con algo que ya se puede usar y probar en el teléfono. Marcá con `[x]` cuando la fase cumpla su criterio de cierre.
+
+| Fase | Nombre | Entregable | Estimación |
+|---|---|---|---|
+| 1 | Estructura base y navegación | App abre, navega y la base SQLite se crea sola | 2 días |
+| 2 | Perfil del emisor y clientes | Perfil del emisor con nombre, NIT, teléfono, dirección y logo; Clientes frecuentes para llenar el recibo en segundos | 4 días |
+| 3 | Recibos con items | Recibos con varios items y numeración correlativa | 4 días |
+| 4 | PDF y compartir | PDF listo para enviar por WhatsApp o imprimir | 3 días |
+| 5 | Anulación y exportación CSV | Anulación de recibos sin perder la numeración; Exportación CSV de lo emitido | 3 días |
+
+Estimación total del MVP: **~16 días de trabajo** (a tu ritmo, sin apuro).
+
+## Estado
+
+- [ ] **Fase 1:** Estructura base y navegación
+- [ ] **Fase 2:** Perfil del emisor y clientes
+- [ ] **Fase 3:** Recibos con items
+- [ ] **Fase 4:** PDF y compartir
+- [ ] **Fase 5:** Anulación y exportación CSV
+
+## Después del MVP (versión 1.1 en adelante)
+
+- [ ] Respaldo y restauración: exportar e importar el archivo de la base de datos.
+- [ ] Modo oscuro.
+- [ ] Búsqueda y filtros avanzados en las listas.
+- [ ] Estadísticas y gráficos simples en la pantalla de inicio.
+- [ ] Publicación en Google Play (cuenta de desarrollador, única vez).
+- [ ] Sincronización opcional entre dispositivos (solo si hay demanda real).
+
+## Cómo se usa este documento
+
+1. Trabajá una fase a la vez, en el orden indicado.
+2. El detalle de tareas de cada fase está en [PLANNING.md](PLANNING.md).
+3. Qué debe hacer exactamente la app está en [SPEC.md](SPEC.md).
+4. Al cerrar una fase, actualizá este archivo y el [CHANGELOG](../CHANGELOG.md).
